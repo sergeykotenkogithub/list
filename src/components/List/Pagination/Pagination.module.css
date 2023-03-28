@@ -1,0 +1,35 @@
+.pagination {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 20px;
+}
+
+.numbers {
+	display: flex;
+}
+
+.move {
+	padding: 10px;
+	background: silver;
+	border-radius: 10px;
+	-webkit-box-shadow: 0px 0px 15px -2px rgba(34, 60, 80, 0.48);
+	-moz-box-shadow: 0px 0px 15px -2px rgba(34, 60, 80, 0.48);
+	box-shadow: 0px 0px 15px -2px rgba(34, 60, 80, 0.48);
+	background: white;
+}
+
+.number {
+	border: none;
+	margin: 0 10px;
+	-webkit-box-shadow: 0px 0px 15px -2px rgba(34, 60, 80, 0.48);
+	-moz-box-shadow: 0px 0px 15px -2px rgba(34, 60, 80, 0.48);
+	box-shadow: 0px 0px 15px -2px rgba(34, 60, 80, 0.48);
+	border-radius: 10px;
+	background: none;
+	padding: 10px;
+}
+
+.active {
+	background: #eb6753;
+	color: #ffffff;
+}
