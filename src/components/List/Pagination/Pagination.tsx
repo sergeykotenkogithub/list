@@ -20,8 +20,6 @@ const Pagination: FC<IPagination> = ({
 		setFetching(true)
 	}
 
-	console.log(currentPage)
-
 	const prevPage = () => {
 		if (currentPage !== 1) {
 			setFetching(true)

@@ -26,6 +26,7 @@ interface IButton {
 	size?: ButtonSize
 	className?: string
 	space?: ButtonSpace
+	onClick?: () => void
 }
 
 const Button: FC<IButton> = ({
